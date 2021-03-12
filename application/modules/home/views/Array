@@ -1,0 +1,147 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [productId] => 1
+            [product_name] => test
+            [product-price] => 1000
+            [product_size] => 123
+            [product_color] => red
+            [product_cat_id] => 1
+            [About_product] => this is my first projects
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Killer
+            [product_image] => http://localhost/task/uploads/profile/thumb/arCPh4jVv0QZBFTw.jpg
+        )
+
+    [1] => stdClass Object
+        (
+            [productId] => 2
+            [product_name] => my second product
+            [product-price] => 500
+            [product_size] => 30
+            [product_color] => green
+            [product_cat_id] => 2
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Pantaloon
+            [product_image] => http://localhost/task/uploads/profile/thumb/z1o8BWVK3GOEbkPI.jpg
+        )
+
+    [2] => stdClass Object
+        (
+            [productId] => 3
+            [product_name] => my third product
+            [product-price] => 500
+            [product_size] => 300
+            [product_color] => blue
+            [product_cat_id] => 3
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Armani
+            [product_image] => http://localhost/task/uploads/profile/thumb/URBTvCOiyVzNF0KE.png
+        )
+
+    [3] => stdClass Object
+        (
+            [productId] => 4
+            [product_name] => test
+            [product-price] => 5000
+            [product_size] => 115
+            [product_color] => black
+            [product_cat_id] => 5
+            [About_product] => this is my first projects
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Oswal
+            [product_image] => http://localhost/task/uploads/profile/thumb/TqX6dWxDy9sbBRz2.jpg
+        )
+
+    [4] => stdClass Object
+        (
+            [productId] => 5
+            [product_name] => demo
+            [product-price] => 75
+            [product_size] => 147
+            [product_color] => green
+            [product_cat_id] => 2
+            [About_product] => hello
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Pantaloon
+            [product_image] => http://localhost/task/uploads/profile/thumb/N7jaCIxli6SALcVy.jpg
+        )
+
+    [5] => stdClass Object
+        (
+            [productId] => 6
+            [product_name] => test 1
+            [product-price] => 80
+            [product_size] => 55
+            [product_color] => black
+            [product_cat_id] => 4
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Jon milar
+            [product_image] => http://localhost/task/uploads/profile/thumb/WD68TIkLZh29qszO.jpg
+        )
+
+    [6] => stdClass Object
+        (
+            [productId] => 7
+            [product_name] => test 2
+            [product-price] => 80
+            [product_size] => 55
+            [product_color] => black
+            [product_cat_id] => 4
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Jon milar
+            [product_image] => http://localhost/task/uploads/profile/thumb/CkqxEy9KOGNtod12.jpg
+        )
+
+    [7] => stdClass Object
+        (
+            [productId] => 8
+            [product_name] => test 3
+            [product-price] => 80
+            [product_size] => 55
+            [product_color] => black
+            [product_cat_id] => 2
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Pantaloon
+            [product_image] => http://localhost/task/uploads/profile/thumb/BKIvCkuTnjOgGJtY.jpg
+        )
+
+    [8] => stdClass Object
+        (
+            [productId] => 9
+            [product_name] => test 4
+            [product-price] => 45
+            [product_size] => 89
+            [product_color] => blue
+            [product_cat_id] => 6
+            [About_product] => 
+            [status] => 1
+            [crd] => 0000-00-00 00:00:00
+            [upd] => 0000-00-00 00:00:00
+            [brand_name] => Jokey
+            [product_image] => http://localhost/task/uploads/profile/thumb/6wdDaWCesOQXSEcp.jpg
+        )
+
+)

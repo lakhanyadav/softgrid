@@ -1,0 +1,225 @@
+{
+	"id": "555766f3-0685-1517-8749-4644668c767d",
+	"name": "softgrid",
+	"description": "",
+	"order": [
+		"7498b0a9-d3bb-23ab-4108-6134227bccea",
+		"afc18293-f6a1-a979-7a42-faba813314a8",
+		"46ee3a45-d7be-d56a-0bf9-4bfa46510447",
+		"d43a4044-aae9-fc48-1607-42f8625acef7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615473641268,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "46ee3a45-d7be-d56a-0bf9-4bfa46510447",
+			"headers": "authToken: 051c0b3658714314f1f91e648fcc7614e2e372ac\n",
+			"headerData": [
+				{
+					"key": "authToken",
+					"value": "051c0b3658714314f1f91e648fcc7614e2e372ac",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/softgrid/api_v1/user/makeRequest",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615483436219,
+			"name": "Request",
+			"description": "",
+			"collectionId": "555766f3-0685-1517-8749-4644668c767d",
+			"responses": []
+		},
+		{
+			"id": "7498b0a9-d3bb-23ab-4108-6134227bccea",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/softgrid/api_v1/auth/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirmPassword",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "profileImage",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "deviceType",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deviceToken",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "socialId",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "socialType",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615475098452,
+			"name": "signup",
+			"description": "",
+			"collectionId": "555766f3-0685-1517-8749-4644668c767d",
+			"responses": []
+		},
+		{
+			"id": "afc18293-f6a1-a979-7a42-faba813314a8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/softgrid/api_v1/auth/signin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deviceToken",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deviceType",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615474024182,
+			"name": "Login",
+			"description": "",
+			"collectionId": "555766f3-0685-1517-8749-4644668c767d",
+			"responses": []
+		},
+		{
+			"id": "d43a4044-aae9-fc48-1607-42f8625acef7",
+			"headers": "authToken: d9fbf760ababf770bb67c3801544b1f9c6309789\n",
+			"headerData": [
+				{
+					"key": "authToken",
+					"value": "d9fbf760ababf770bb67c3801544b1f9c6309789",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/softgrid/api_v1/user/addPatner",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "patner_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615524974932,
+			"name": "addPatner",
+			"description": "",
+			"collectionId": "555766f3-0685-1517-8749-4644668c767d",
+			"responses": []
+		}
+	]
+}

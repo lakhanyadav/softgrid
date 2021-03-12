@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+body{
+	font-family: 'Poppins', sans-serif !important;
+}
+.pd-20{
+	padding: 30px;
+}
+.pd-30{
+	padding: 30px;
+}
+.pt-170{
+	padding-top: 170px!important;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.pl-10 {
+	padding-left: 10px;
+	font-size: 15px;
+}
+.shdw-bg{
+	background: #fff;
+	-webkit-box-shadow: 0 5px 10px rgba(0,9,128,0.035),0 7px 18px rgba(0,9,128,0.05);
+	-moz-box-shadow: 0 5px 10px rgba(0,9,128,0.035),0 7px 18px rgba(0,9,128,0.05);
+	-ms-box-shadow: 0 5px 10px rgba(0,9,128,0.035),0 7px 18px rgba(0,9,128,0.05);
+	-o-box-shadow: 0 5px 10px rgba(0,9,128,0.035),0 7px 18px rgba(0,9,128,0.05);
+	box-shadow: 0 5px 10px rgba(0,9,128,0.035),0 7px 18px rgba(0,9,128,0.05);
+}
+.add-skill-btn {
+	background: #23c466;
+	color: white;
+	padding: 1px;
+	overflow: hidden;
+	border-radius: 4px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.05);
+	-webkit-transition-property: background-color, -webkit-box-shadow;
+	transition-property: background-color, box-shadow;
+	-webkit-transition-duration: 150ms;
+	transition-duration: 150ms;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	border:none;
+	margin: 0 auto;
+}
+.add-skill-icon{
+	background: white;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	justify-self: flex-start;
+}
+.add-skill-icon img {
+	width: 30px;
+	height: 30px;
+}
+.add-skill-txt {
+	color: #fff;
+	font-weight: 600;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size: 16px;
+	padding: 0px 30px;
+}
+.log_div{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    width: auto;
+}
+.log_div img {
+    border-radius: 100%;
+    height: 170px;
+	width: 170px;
+}
+.upload_pic_in_album {
+	bottom: -10px;
+	margin: 0 auto;
+	position: absolute;
+	right: 7px;
+	text-align: center;
+}
+label.upload_pic {
+    background: #242424;
+    border-radius: 44px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.log_div1 img {
+    height: 130px;
+	width: 130px;
+	border: 2px solid #828282;
+}
+.log_div1 label.upload_pic {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.skill-sec{
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px dashed #242424;	
+	position: relative;
+	margin:12px 0;
+}
+.skill-sec h4{
+	padding: 0;
+	margin: 0px 0px 5px 0px;
+	font-size: 18px;
+}
+.skill-sec p{
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 0.02em;
+	color: #5a5a5a;
+	margin: 0px;
+}
+.skill-close{
+	position: absolute;
+	top: -10px;
+	right: -8px;
+}
+.skill-close a i{
+	background: #242424;
+	border-radius: 50%;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+}
+.prfl-popup .modal-content{
+	border-radius: 10px;
+}
+.prfl-popup .hdr-txt{
+	background: #23c466;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+}
+.thm-btn{
+	width: 100%;
+	max-width: 150px;
+}
+.lve-wre-form-prt .input-group-addon{
+	background-color: #242424;
+	border: 1px solid #242424;
+}
+
+.lve-wre-form-prt .input-group-addon i{
+	color: #fff;
+}
+.custom-select{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	background: #fff url(../images/download.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+    padding-right: 35px;
+}
+.btn-cancel{
+	color: #fff;
+	background-color: #242424;
+	border-color: #242424;
+}
+.upload-video{
+	position: relative;
+	border: 2px dashed #242424;
+	max-width: 120px;
+}
+.upload-video>label {
+    width: 100px;
+    height: 100px;
+}
+.upload-video>label>input{
+    display: none;
+}
+.upload-video .crd-icon {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.upload-video .crd-icon i {
+    position: absolute;
+    top: 34%;
+    font-size: 30px;
+    right: 0;
+    left: 0;
+    color: #242424;
+}
+.job-detail{
+	background-image: url("../images/dot.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
+	padding: 20px;
+}
+.head-txt h2{
+	color: #123641;
+	font-size: 23px;
+	padding:0px;
+	margin:0px;  
+}
+.dtl-txt{
+	color: #049a43;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+.job-right {
+	width: 100%;
+	max-width: 124px;
+	position: absolute;
+	right: 0;
+	color: #8c8c8c;
+	border-radius: 25px 0px 0px 25px;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.job-dlt-img {
+    display: block;
+    float: left;
+}
+.job-dlt-img img{
+    border-radius: 50%;
+    width: 80px;
+    border: 1px solid #049a43;
+}
+.job-dlt-sub-txt {
+	color: #31444a;
+	font-weight: 600;
+	font-size: 16px;
+}
+.dlt-p-txt{
+	color: #828282;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.dsrip-txt{
+	color: #333;
+	font-size: 20px;
+}
+.detail-chat img{
+	width: 70px;
+	height: 70px;
+	margin-top: 8px;
+}
+.para-txt{
+	font-size: 16px;
+}
+.banner-job-lst2{
+	/*background-image: url("../images/job-lst-back-img.png");*/
+	padding: 21px 0 0 0;
+	min-height: 95px;
+	background-color: #049a43;
+}
+.clr-grn{
+	background: #049a43;
+	border: 1px solid #049a43;
+}
+.clr-grn:hover,
+.clr-grn:focus{
+	background: #049a43;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #049a43;
+}
+.cstm-drop .ui.label{
+	background: #242424;
+	color: #fff;
+}
