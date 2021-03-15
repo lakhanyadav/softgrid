@@ -111,9 +111,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right mainMenu">
-                        <li class="<?php echo $home; ?>"><a href="<?php echo base_url('') ?>">Product</a></li>
-                        <li class="<?php  ?>"><a href="<?php echo base_url('home/ProductList') ?>">Product-List</a></li>
-                        <li><a href="<?php echo base_url('home/payment'); ?>">Payment Page</a></li>
+                        <li class="<?php echo $home; ?>"><a href="<?php echo base_url('') ?>">User Info</a></li>
                     </ul>
                 </div>
             </div>
